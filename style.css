@@ -1,0 +1,106 @@
+.box{
+    background-color:black;
+    color:white;
+    margin:5px;
+    padding:20px;
+    text-align:center;
+}
+*{
+    padding:0px;
+    margin:0px;
+}
+li{
+    display:inline;
+    padding:5px;
+    margin-top:5px;
+    color:grey;
+    cursor:pointer;
+}
+.hi{
+    border-color:black;
+    border-style:solid;
+    border-width:3px;
+    text-align:center;
+    padding:40px;
+    margin:5px;
+    display:inline-block;
+    width:300px;
+}
+.one{
+    background-color:orange;
+    color:white;
+    display:inline;
+    cursor:pointer;
+    
+   } 
+li:hover{
+    color:white;
+}
+
+.hi:hover{
+    background-color:black;
+    color:white;
+}
+.one:hover{
+    background-color:black;
+    color:red;
+}
+.table{
+    background-color:black;
+    color:white;
+    padding:5px;
+    text-align:center;
+    margin:10px;
+}
+h1{
+    margin:10px;
+}
+.three{
+    margin:10px;
+}
+.two{
+    width:500px;
+    background-color:white;
+    cursor:pointer;
+    color:black;
+   
+}
+.two:hover{
+    color:red;
+    background-color:grey;
+}
+.name{
+    background-color:orange;
+    width:60%;
+    height:100px;
+    margin:50px;
+    border-radius:40px ;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+}
+.message{
+    height:50px;
+    margin-top: 10px;
+   
+}
+.mesage{
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+<form>
+<table class="three">
+    <tr>
+        <td>name:</td><td><input type="text"  id="name" placeholder="name"></td>
+    </tr>
+    
+    <tr>
+        <td>email:</td><td><input type="text"  id="email" placeholder="email"></td>
+    </tr>
+    <tr>
+        <td>message:</td><td><input type="text" id="massage" placeholder="message"></td>
+    </tr>
+    
+ </table>
+</form>
